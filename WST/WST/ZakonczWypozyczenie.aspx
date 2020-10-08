@@ -18,12 +18,12 @@
         <asp:GridView ID="gvWypozyczenia" runat="server" AutoGenerateColumns="false" CssClass="Grid" AlternatingRowStyle-CssClass="alt">
             <Columns>
                 <asp:BoundField DataField="Id" HeaderText="Id"/>
-                <asp:BoundField DataField="Produkt_id" HeaderText="Produkt_id"/>
-                <asp:BoundField DataField="Uzytkownik_id" HeaderText="Uzytkownik_id"/>
-                <asp:BoundField DataField="Ilosc" HeaderText="Ilosc"/>
-                <asp:BoundField DataField="Data_od" HeaderText="Data_od"/>
-                <asp:BoundField DataField="Ilosc_dni" HeaderText="Ilosc_dni"/>
-                <asp:BoundField DataField="Data_do" HeaderText="Data_do"/>
+                <asp:BoundField DataField="Produkt_id" HeaderText="Produkt"/>
+                <asp:BoundField DataField="Uzytkownik_id" HeaderText="Użytkownik"/>
+                <asp:BoundField DataField="Ilosc" HeaderText="Ilość"/>
+                <asp:BoundField DataField="Data_od" HeaderText="Data od"/>
+                <asp:BoundField DataField="Ilosc_dni" HeaderText="Ilość dni"/>
+                <asp:BoundField DataField="Data_do" HeaderText="Data do"/>
 
                 <asp:TemplateField>
                     <ItemTemplate>

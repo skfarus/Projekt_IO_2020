@@ -49,10 +49,41 @@ namespace WST.BusinessLogic.Api
                 {
                     try
                     {
+                        int ilosc_wyp = 0;
+                        int ilosc_rez = 0;
+                        var produkty = session.Query<Produkty>()
+                        .Where(y => y.Id == int.Parse(Wypozyczenie.Produkt_id));
+
+                        foreach (var item in produkty)
+                        {
+                            foreach (var wyp in session.Query<Wypozyczenia>().Where(x => x.Produkt_id == item.Id.ToString()))
+                            {
+                                ilosc_wyp = ilosc_wyp + int.Parse(wyp.Ilosc);
+                            }
+                            foreach (var wyp in session.Query<Rezerwacje>()
+                                .Where(x => x.Produkt_id == item.Id.ToString() && x.Uzytkownik_id != Wypozyczenie.Uzytkownik_id))
+                            {
+                                ilosc_rez = ilosc_rez + int.Parse(wyp.Ilosc);
+                            }
+                            if ((int.Parse(item.Ilosc) - (ilosc_wyp + ilosc_rez)) < int.Parse(Wypozyczenie.Ilosc))
+                            {
+                                throw new Exception("Niewystarczająca ilość produktu.");
+                            }
+                        }
+
                         session.Flush();
                         var WypozyczenieAdd = Wypozyczenie.ToWypozyczenia();
                         session.Save(WypozyczenieAdd);
                         transaction.Commit();
+                        session.Flush();
+
+                        var query = string.Format("delete {0} where Produkt_id = :Produkt_id and Uzytkownik_id = :Uzytkownik_id", typeof(Rezerwacje));
+
+                        session.CreateQuery(query)
+                            .SetParameter("Produkt_id", Wypozyczenie.Produkt_id)
+                            .SetParameter("Uzytkownik_id", Wypozyczenie.Uzytkownik_id)
+                            .ExecuteUpdate();
+
                         session.Flush();
                     }
                     catch (Exception e)
@@ -110,6 +141,21 @@ namespace WST.BusinessLogic.Api
                             Ilosc = x.Ilosc,
                         }).ToList();
 
+                    foreach(var produkt in produkty)
+                    {
+                        int ilosc_wyp = 0;
+                        foreach (var wyp in session.Query<Wypozyczenia>().Where(x => x.Produkt_id == produkt.Id.ToString()))
+                        {
+                            ilosc_wyp = ilosc_wyp + int.Parse(wyp.Ilosc);
+                        }
+                        int ilosc_rez = 0;
+                        foreach (var wyp in session.Query<Rezerwacje>().Where(x => x.Produkt_id == produkt.Id.ToString()))
+                        {
+                            ilosc_rez = ilosc_rez + int.Parse(wyp.Ilosc);
+                        }
+                        produkt.Ilosc = "(" + (int.Parse(produkt.Ilosc) - (ilosc_wyp + ilosc_rez)).ToString() + " / " + produkt.Ilosc + ")";
+                    }
+
                     session.Flush();
 
                     return new ProduktyServiceResponse()
@@ -121,6 +167,43 @@ namespace WST.BusinessLogic.Api
             catch (Exception e)
             {
                 return new ProduktyServiceResponse()
+                {
+                    Errors = e.StackTrace + " " + e.Message,
+                    Success = false
+                };
+            }
+        }
+        public WypozyczeniaServiceResponse GetWypozyczeniaUzytkownika(string uzy_id)
+        {
+            try
+            {
+                using (var session = NHibernateBase.Session)
+                {
+                    var Wypozyczenia = session.Query<Wypozyczenia>()
+                        .Where(y=>y.Uzytkownik_id==uzy_id)
+                        .Select(x =>
+                        new WypozyczeniaDTO()
+                        {
+                            Id = x.Id,
+                            Produkt_id = x.Produkt_id,
+                            Uzytkownik_id = x.Uzytkownik_id,
+                            Ilosc = x.Ilosc,
+                            Data_od = x.Data_od,
+                            Ilosc_dni = x.Ilosc_dni,
+                            Data_do = x.Data_do
+                        }).ToList();
+
+                    session.Flush();
+
+                    return new WypozyczeniaServiceResponse()
+                    {
+                        Data = Wypozyczenia
+                    };
+                }
+            }
+            catch (Exception e)
+            {
+                return new WypozyczeniaServiceResponse()
                 {
                     Errors = e.StackTrace + " " + e.Message,
                     Success = false
@@ -313,6 +396,34 @@ namespace WST.BusinessLogic.Api
             catch (Exception e)
             {
                 return new ProduktyServiceResponse()
+                {
+                    Errors = e.StackTrace + " " + e.Message,
+                    Success = false
+                };
+            }
+        }
+        public UzytkownicyServiceResponse DelUzytkownicy(int id)
+        {
+            try
+            {
+                using (var session = NHibernateBase.Session)
+                {
+                    var query = string.Format("delete {0} where id = :id", typeof(Uzytkownicy));
+
+                    session.CreateQuery(query).SetParameter("id", id).ExecuteUpdate();
+
+                    session.Flush();
+
+                    return new UzytkownicyServiceResponse()
+                    {
+                        Errors = "",
+                        Success = true
+                    };
+                }
+            }
+            catch (Exception e)
+            {
+                return new UzytkownicyServiceResponse()
                 {
                     Errors = e.StackTrace + " " + e.Message,
                     Success = false

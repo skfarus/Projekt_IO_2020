@@ -49,6 +49,18 @@ namespace WST
             int id = int.Parse(e.CommandArgument.ToString());
             var uzytkownicy = new WSTApi().DelUzytkownicy(id);
         }
+
+        protected void lnkShow1(Object sender, CommandEventArgs e)
+        {
+            Global.Id_wybranego_uzytkownika = e.CommandArgument.ToString();
+            Response.Redirect("WypozyczeniaUzytkownika.aspx");
+        }
+
+        protected void lnkShow2(Object sender, CommandEventArgs e)
+        {
+            Global.Id_wybranego_uzytkownika = e.CommandArgument.ToString();
+            Response.Redirect("RezerwacjeUzytkownika.aspx");
+        }
         #endregion
     }
 }

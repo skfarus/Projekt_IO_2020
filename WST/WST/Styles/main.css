@@ -12,27 +12,34 @@ body {
 /*Page*/
 
 .wrapper {
-    width: 950px;
+    width: 60vw;
     margin: auto;
 }
 
 .logo {
-    width: 100%;
     background-color: #999999;
-    height: 150px;
+    height: 15vh;
     border: 1px solid rgb(224, 224, 224);
     -ms-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
-    text-align: center;
+    text-align: left;
+    width: 60vw;
+    top:0px;
+}
+.logo_text {
+    text-shadow: 2px 2px #000000;
+    color: white;
+    font-size: 12vh;
+    margin-left:1vh;
 }
 
-    .logo h2 {
-        font-size: 24px;
-        line-height: 140px;
-    }
+.logo h2 {
+    font-size: 24px;
+    line-height: 140px;
+}
+
 /*Home Page*/
 .content {
-    width: 100%;
     background-color: rgb(230, 230, 230);
     border: 1px solid rgb(220, 220, 220);
     -ms-border-radius: 5px 5px 5px 5px;
@@ -40,25 +47,28 @@ body {
     float: left;
     margin-top: 8px;
     margin-bottom: 8px;
-    min-height: 400px;
+    position: fixed;
+    top: 19vh;
+    height: 77vh;
+    width: 60vw;
 }
 
 /*Menu*/
 .menu {
     background-color: rgb(10, 178, 110);
-    width: 100%;
     margin: 0px 0px 10px;
     padding: 0px;
-    height: 40px;
     color: rgb(243, 243, 243);
     -ms-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
+    width: 60vw;
+    top: 15vh;
+    height: 4vh;
 }
 
 .navigation_first_item {
     border-left: 0px;
     -ms-border-radius: 5px 0px 0px 5px;
-    ;
     border-radius: 5px 0px 0px 5px;
 }
 
@@ -66,7 +76,7 @@ body {
     float: left;
     border-right: 1px solid rgb(10, 85, 125);
     border-left: 1px solid rgb(67, 153, 200);
-    height: 40px;
+    height: 4vh;
     background-color: rgb(14, 79, 114);
 }
 
@@ -89,7 +99,7 @@ body {
         .menu ul li a {
             font-size: 13px;
             font-weight: bold;
-            line-height: 40px;
+            line-height: 4vh;
             padding: 8px 20px;
             color: rgb(255, 255, 255);
             text-decoration: none;
@@ -105,11 +115,14 @@ body {
 }
 /*Footer*/
 .footer {
-    height: 50px;
+    height: 3vh;
     background-color: rgb(10, 178, 110);
     color: rgb(255, 255, 255);
     -ms-border-radius: 5px 5px 5px 5px;
     border-radius: 5px 5px 5px 5px;
+    top: 97vh;
+    width: 60vw;
+    position: fixed;
 }
 
     .footer h2 {
@@ -117,13 +130,20 @@ body {
         text-align: center;
     }
 
+.hello_text {
+    text-indent: 30px;
+    margin-left:30px;
+    margin-top:30px;
+}
+
 .Grid {
     background-color: #fff;
-    margin: 5px 0 10px 0;
+    margin:auto;
     border: solid 1px #525252;
     border-collapse: collapse;
     font-family: Calibri;
     color: #474747;
+    width:90%;
 }
 
     .Grid td {

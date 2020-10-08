@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="WST.Domain.Domain" assembly="WST.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Produkty" table="Produkty">
+    <id name="Id" column="Id" type="Int32">
+      <generator class="native"/>
+    </id>
+
+		<property name="Marka" type="String" column="Marka" length="255"/>
+		<property name="Model" type="String" column="Model" length="255"/>
+		<property name="Opis" type="String" column="Opis" length="255"/>
+		<property name="Ilosc" type="String" column="Ilosc" length="255"/>
+  </class>
+</hibernate-mapping>

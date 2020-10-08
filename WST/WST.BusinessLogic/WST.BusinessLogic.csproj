@@ -54,24 +54,17 @@
     <Compile Include="Communication\WypozyczeniaServiceResponse.cs" />
     <Compile Include="Communication\RezerwacjeServiceResponse.cs" />
     <Compile Include="Communication\UzytkownicyServiceResponse.cs" />
-    <Compile Include="Communication\UbraniaServiceResponse.cs" />
-    <Compile Include="Communication\ListIdKolorPairServiceResponse.cs" />
-    <Compile Include="Communication\ListIdRodzajPairServiceResponse.cs" />
     <Compile Include="Communication\ServiceResponse.cs" />
     <Compile Include="Extensions\ProduktyExtensions.cs" />
     <Compile Include="Extensions\WypozyczeniaExtensions.cs" />
     <Compile Include="Extensions\RezerwacjeExtensions.cs" />
     <Compile Include="Extensions\UzytkownicyExtensions.cs" />
-    <Compile Include="Extensions\UbraniaExtensions.cs" />
     <Compile Include="ModelDTO\RejestracjaDTO.cs" />
     <Compile Include="ModelDTO\ProduktyDTO.cs" />
     <Compile Include="ModelDTO\WypozyczeniaDTO.cs" />
     <Compile Include="ModelDTO\RezerwacjeDTO.cs" />
     <Compile Include="ModelDTO\UzytkownicyDTO.cs" />
     <Compile Include="ModelDTO\LogowanieDTO.cs" />
-    <Compile Include="ModelDTO\UbraniaDTO.cs" />
-    <Compile Include="ModelDTO\IdKolorPair.cs" />
-    <Compile Include="ModelDTO\IdRodzajPair.cs" />
     <Compile Include="NHibernate\NHibernateBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="WST.Domain.Domain" assembly="WST.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Uzytkownicy" table="Uzytkownicy">
+    <id name="Id" column="Id" type="Int32">
+      <generator class="native"/>
+    </id>
+
+		<property name="Email" type="String" column="Email" length="255"/>
+		<property name="Haslo" type="String" column="Haslo" length="255"/>
+		<property name="Imie" type="String" column="Imie" length="255"/>
+		<property name="Nazwisko" type="String" column="Nazwisko" length="255"/>
+		<property name="Adres" type="String" column="Adres" length="255"/>
+		<property name="Telefon" type="String" column="Telefon" length="255"/>
+		<property name="Admin" type="String" column="Admin" length="255"/>
+  </class>
+</hibernate-mapping>

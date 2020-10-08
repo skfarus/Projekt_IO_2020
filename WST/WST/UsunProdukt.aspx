@@ -21,7 +21,7 @@
                 <asp:BoundField DataField="Marka" HeaderText="Marka"/>
                 <asp:BoundField DataField="Model" HeaderText="Model"/>
                 <asp:BoundField DataField="Opis" HeaderText="Opis"/>
-                <asp:BoundField DataField="Ilosc" HeaderText="Ilosc"/>
+                <asp:BoundField DataField="Ilosc" HeaderText="Ilość"/>
 
                 <asp:TemplateField>
                     <ItemTemplate>

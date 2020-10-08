@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using WST.BusinessLogic.Api;
 
 namespace WST
 {
@@ -29,7 +30,18 @@ namespace WST
         }
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                InitProdukty();
+            }
         }
+        #region Methods
+        private void InitProdukty()
+        {
+            var produkty = new WSTApi().GetProdukty();
+            gvProdukty.DataSource = produkty.Data;
+            gvProdukty.DataBind();
+        }
+        #endregion
     }
 }

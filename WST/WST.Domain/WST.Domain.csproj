@@ -45,23 +45,7 @@
     <Compile Include="Domain\Wypozyczenia.cs" />
     <Compile Include="Domain\Rezerwacje.cs" />
     <Compile Include="Domain\Uzytkownicy.cs" />
-    <Compile Include="Domain\Ubrania.cs" />
-    <Compile Include="Domain\Kolor.cs" />
-    <Compile Include="Domain\Rodzaj.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Mapping\Ubrania.hbm.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Mapping\Rodzaj.hbm.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Mapping\Kolor.hbm.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Mapping\Uzytkownicy.hbm.xml">

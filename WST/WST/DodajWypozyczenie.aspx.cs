@@ -57,7 +57,7 @@ namespace WST
             if(!result.Success)
             {
                 Trace.Warn(result.Errors);
-                lblInfo.Text = "Błąd";
+                lblInfo.Text = result.Errors;
                 panelInfo.CssClass = "alert alert-danger";
             }
             else

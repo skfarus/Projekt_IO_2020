@@ -42,7 +42,7 @@ namespace WST
                 Marka = crtlDodajProdukt.Marka,
                 Model = crtlDodajProdukt.Model,
                 Opis = crtlDodajProdukt.Opis,
-                Ilosc = crtlDodajProdukt.Model
+                Ilosc = crtlDodajProdukt.Ilosc
             };
         }
         #endregion

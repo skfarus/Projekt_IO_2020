@@ -28,6 +28,24 @@
                 <asp:TemplateField>
                     <ItemTemplate>
 
+                        <asp:LinkButton ID="btnEdit2" runat="server" CommandArgument='<%#Eval("Id")%>' OnCommand="lnkShow1" Text="Pokaż wypożyczenia">
+
+                        </asp:LinkButton>
+                    </ItemTemplate>
+                </asp:TemplateField>
+
+                <asp:TemplateField>
+                    <ItemTemplate>
+
+                        <asp:LinkButton ID="btnEdit3" runat="server" CommandArgument='<%#Eval("Id")%>' OnCommand="lnkShow2" Text="Pokaż rezerwacje">
+
+                        </asp:LinkButton>
+                    </ItemTemplate>
+                </asp:TemplateField>
+
+                <asp:TemplateField>
+                    <ItemTemplate>
+
                         <asp:LinkButton ID="btnEdit" runat="server" CommandArgument='<%#Eval("Id")%>' OnCommand="lnkDelete" Text="Usuń">
 
                         </asp:LinkButton>

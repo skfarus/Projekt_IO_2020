@@ -1,0 +1,29 @@
+D:\Users\skfer\Desktop\Projekt\WST\WST.Domain\bin\Debug\Mapping\Ubrania.hbm.xml
+D:\Users\skfer\Desktop\Projekt\WST\WST.Domain\bin\Debug\Mapping\Rodzaj.hbm.xml
+D:\Users\skfer\Desktop\Projekt\WST\WST.Domain\bin\Debug\Mapping\Kolor.hbm.xml
+D:\Users\skfer\Desktop\Projekt\WST\WST.Domain\bin\Debug\WST.Domain.dll
+D:\Users\skfer\Desktop\Projekt\WST\WST.Domain\bin\Debug\WST.Domain.pdb
+D:\Users\skfer\Desktop\Projekt\WST\WST.Domain\obj\Debug\WST.Domain.csprojAssemblyReference.cache
+D:\Users\skfer\Desktop\Projekt\WST\WST.Domain\obj\Debug\WST.Domain.dll
+D:\Users\skfer\Desktop\Projekt\WST\WST.Domain\obj\Debug\WST.Domain.pdb
+D:\Users\skfer\Desktop\Projekt\WST\WST.Domain\obj\Debug\WST.Domain.csproj.CoreCompileInputs.cache
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.Domain\bin\Debug\Mapping\Uzytkownicy.hbm.xml
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.Domain\bin\Debug\WST.Domain.dll
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.Domain\bin\Debug\WST.Domain.pdb
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.Domain\obj\Debug\WST.Domain.csproj.CoreCompileInputs.cache
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.Domain\obj\Debug\WST.Domain.dll
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.Domain\obj\Debug\WST.Domain.pdb
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.Domain\obj\Debug\WST.Domain.csprojAssemblyReference.cache
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.Domain\bin\Debug\Mapping\Produkty.hbm.xml
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.Domain\bin\Debug\Mapping\Rezerwacje.hbm.xml
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.Domain\bin\Debug\Mapping\Wypozyczenia.hbm.xml
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.Domain\bin\Debug\Mapping\Uzytkownicy.hbm.xml
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.Domain\bin\Debug\Mapping\Produkty.hbm.xml
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.Domain\bin\Debug\Mapping\Rezerwacje.hbm.xml
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.Domain\bin\Debug\Mapping\Wypozyczenia.hbm.xml
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.Domain\bin\Debug\WST.Domain.dll
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.Domain\bin\Debug\WST.Domain.pdb
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.Domain\obj\Debug\WST.Domain.csprojAssemblyReference.cache
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.Domain\obj\Debug\WST.Domain.csproj.CoreCompileInputs.cache
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.Domain\obj\Debug\WST.Domain.dll
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.Domain\obj\Debug\WST.Domain.pdb

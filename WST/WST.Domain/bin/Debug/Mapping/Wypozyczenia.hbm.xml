@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping namespace="WST.Domain.Domain" assembly="WST.Domain" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Wypozyczenia" table="Wypozyczenia">
+    <id name="Id" column="Id" type="Int32">
+      <generator class="native"/>
+    </id>
+
+		<property name="Produkt_id" type="String" column="Produkt_id" length="255"/>
+		<property name="Uzytkownik_id" type="String" column="Uzytkownik_id" length="255"/>
+		<property name="Ilosc" type="String" column="Ilosc" length="255"/>
+		<property name="Data_od" type="Date" column="Data_od" length="255"/>
+		<property name="Ilosc_dni" type="String" column="Ilosc_dni" length="255"/>
+		<property name="Data_do" type="Date" column="Data_do" length="255"/>
+  </class>
+</hibernate-mapping>

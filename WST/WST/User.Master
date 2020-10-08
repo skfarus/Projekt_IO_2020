@@ -20,7 +20,7 @@
         <div class="wrapper">
 
             <div class="logo">
-                <h3>WST</h3>    
+                <h3 class="logo_text"><sub>WST</sub></h3> 
             </div>
 
             <div class="menu">

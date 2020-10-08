@@ -13,6 +13,7 @@ namespace WST
     {
         public static List<UzytkownicyDTO> uzytkownicy;
         public static string Id_produktu_rezerwacja;
+        public static string Id_wybranego_uzytkownika;
         protected void Application_Start(object sender, EventArgs e)
         {
         }

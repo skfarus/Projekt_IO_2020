@@ -20,7 +20,7 @@
         <div class="wrapper">
 
             <div class="logo">
-                <h3>WST</h3>    
+                <h3 class="logo_text"><sub>WST</sub></h3> 
             </div>
 
             <div class="menu">
@@ -29,7 +29,7 @@
                     <li class="navigation_first_item"><a href="UsunProdukt.aspx">Usuń produkt</a></li>
                     <li class="navigation_first_item"><a href="DodajWypozyczenie.aspx">Dodaj wypożyczenie</a></li>
                     <li class="navigation_first_item"><a href="ZakonczWypozyczenie.aspx">Przyjmij oddanie</a></li>
-                    <li class="navigation_first_item"><a href="UsunUzytkownika.aspx">Usuń użytkownika</a></li>
+                    <li class="navigation_first_item"><a href="UsunUzytkownika.aspx">Użytkownicy</a></li>
                     <li class="navigation_first_item"><asp:LinkButton runat="server" OnClick="btnLogout_Click">Wyloguj</asp:LinkButton></li>
                 </ul>
             </div>

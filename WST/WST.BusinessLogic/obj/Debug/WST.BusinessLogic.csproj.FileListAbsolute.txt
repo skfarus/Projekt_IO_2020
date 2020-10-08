@@ -1,0 +1,47 @@
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\bin\Debug\Mapping\Ubrania.hbm.xml
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\bin\Debug\Mapping\Rodzaj.hbm.xml
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\bin\Debug\Mapping\Kolor.hbm.xml
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\bin\Debug\hibernate.cfg.xml
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\bin\Debug\WST.BusinessLogic.dll
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\bin\Debug\WST.BusinessLogic.pdb
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\bin\Debug\Iesi.Collections.dll
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\bin\Debug\NHibernate.dll
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\bin\Debug\WST.Domain.dll
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\bin\Debug\WST.Domain.pdb
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.csprojAssemblyReference.cache
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.csproj.CopyComplete
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.dll
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.pdb
+D:\Users\skfer\Desktop\Projekt\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\Mapping\Uzytkownicy.hbm.xml
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\hibernate.cfg.xml
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\WST.BusinessLogic.dll
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\WST.BusinessLogic.pdb
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\Iesi.Collections.dll
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\NHibernate.dll
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\WST.Domain.dll
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\WST.Domain.pdb
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.csprojAssemblyReference.cache
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.csproj.CopyComplete
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.dll
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.pdb
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\Mapping\Produkty.hbm.xml
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\Mapping\Rezerwacje.hbm.xml
+D:\Users\skfer\Desktop\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\Mapping\Wypozyczenia.hbm.xml
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\Mapping\Uzytkownicy.hbm.xml
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\Mapping\Produkty.hbm.xml
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\Mapping\Rezerwacje.hbm.xml
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\Mapping\Wypozyczenia.hbm.xml
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\hibernate.cfg.xml
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\WST.BusinessLogic.dll
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\WST.BusinessLogic.pdb
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\Iesi.Collections.dll
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\NHibernate.dll
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\WST.Domain.dll
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\bin\Debug\WST.Domain.pdb
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.csprojAssemblyReference.cache
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.csproj.CoreCompileInputs.cache
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.csproj.CopyComplete
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.dll
+D:\Users\skfer\Desktop\Nowy folder\projekt_lab_io\WST\WST.BusinessLogic\obj\Debug\WST.BusinessLogic.pdb

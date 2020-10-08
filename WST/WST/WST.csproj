@@ -75,10 +75,11 @@
     <Content Include="DodajProdukt.aspx" />
     <Content Include="Controls\RejestracjaControl.ascx" />
     <Content Include="Controls\LogowanieControl.ascx" />
+    <Content Include="RezerwacjeUzytkownika.aspx" />
+    <Content Include="WypozyczeniaUzytkownika.aspx" />
     <Content Include="ZakonczWypozyczenie.aspx" />
     <Content Include="Rejestracja.aspx" />
     <Content Include="Logowanie.aspx" />
-    <Content Include="AddUbranie.aspx" />
     <Content Include="App_Data\WSTDB.mdf" />
     <Content Include="App_Data\WSTDB_log.ldf">
       <DependentUpon>WSTDB.mdf</DependentUpon>
@@ -88,11 +89,8 @@
     <Content Include="Produkty.aspx" />
     <Content Include="UsunProdukt.aspx" />
     <Content Include="UsunUzytkownika.aspx" />
-    <Content Include="Ubrania.aspx" />
-    <Content Include="Controls\AddUbranieControl.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="Styles\AddUbranie.css" />
     <Content Include="Styles\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -145,6 +143,20 @@
     </Compile>
     <Compile Include="Controls\RejestracjaControl.ascx.designer.cs">
       <DependentUpon>RejestracjaControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="RezerwacjeUzytkownika.aspx.cs">
+      <DependentUpon>RezerwacjeUzytkownika.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RezerwacjeUzytkownika.aspx.designer.cs">
+      <DependentUpon>RezerwacjeUzytkownika.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WypozyczeniaUzytkownika.aspx.cs">
+      <DependentUpon>WypozyczeniaUzytkownika.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WypozyczeniaUzytkownika.aspx.designer.cs">
+      <DependentUpon>WypozyczeniaUzytkownika.aspx</DependentUpon>
     </Compile>
     <Compile Include="ZakonczWypozyczenie.aspx.cs">
       <DependentUpon>ZakonczWypozyczenie.aspx</DependentUpon>
@@ -222,27 +234,6 @@
     </Compile>
     <Compile Include="Logowanie.aspx.designer.cs">
       <DependentUpon>Logowanie.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AddUbranie.aspx.cs">
-      <DependentUpon>AddUbranie.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="AddUbranie.aspx.designer.cs">
-      <DependentUpon>AddUbranie.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Ubrania.aspx.cs">
-      <DependentUpon>Ubrania.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Ubrania.aspx.designer.cs">
-      <DependentUpon>Ubrania.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Controls\AddUbranieControl.ascx.cs">
-      <DependentUpon>AddUbranieControl.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Controls\AddUbranieControl.ascx.designer.cs">
-      <DependentUpon>AddUbranieControl.ascx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
